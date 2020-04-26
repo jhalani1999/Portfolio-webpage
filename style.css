@@ -1,0 +1,50 @@
+body
+{
+    color: #fff;
+    background-color: #232323;
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, .5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+    padding-top: 220px;
+}
+
+h1,p
+{
+    text-align: center;
+    color: rgb(219, 217, 209);
+    padding: 0.5%;
+}
+
+h1{font-size: 60px;}
+p{font-size: larger;}
+
+.button-group
+{
+    text-align: center;
+    padding: 0.5%;
+    padding-bottom: 17%;
+}
+
+.button
+{
+    margin-right: 10px;
+    border-radius: 50%;
+    height: 85px;
+    width: 85px;
+    color: rgb(219, 217, 209);
+    background-color: #333333;
+    border-color: white;
+}
+
+.btn
+{
+    transition: color .05s ease-in-out,background-color .05s ease-in-out,border-color .05s ease-in-out,box-shadow .05s ease-in-out;
+}
+
+.fab, .fa   
+{
+    font-size:36px;
+}
+
+#main{
+    position: relative;
+}
